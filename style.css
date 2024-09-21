@@ -1,3 +1,4 @@
+/* Center the content and set font */
 body {
     display: flex;
     flex-direction: column;
@@ -7,37 +8,44 @@ body {
     font-family: sans-serif;
   }
   
+  /* Set width for input and select elements */
   body input,
   select {
     width: 300px;
   }
   
+  /* Style labels */
   label {
     font-size: 10px;
     text-align: left;
     width: 300px;
   }
   
+  /* Style the backpack image */
   #backpack {
     height: auto;
     width: 200px;
     margin-bottom: 30px;
   }
   
+  /* Style for error state */
   .error {
     border: 2px solid red;
     border-radius: 5px;
   }
   
+  /* Hide elements with the hidden class */
   .hidden {
     display: none;
   }
   
+  /* Style for the status message */
   #status {
     color: green;
     font-size: 15px;
   }
   
+  /* Style for the submit button */
   button {
     border: 1px solid gray;
     border-radius: 5%;
@@ -45,3 +53,4 @@ body {
     width: 200px;
     margin: 35px;
   }
+  
